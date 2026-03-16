@@ -42,3 +42,22 @@ This app is designed around the structure of the Global Events Tracker and suppo
 
 ```bash
 npm install
+```
+
+### 2. Start the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### 3. Upload your spreadsheet
+
+Click **Upload Excel File** and select your `.xlsx`, `.xls`, or `.csv` file. The app will parse the first sheet and display all events.
+
+### 4. Search and filter
+
+- Use the **Search** box to find events by name, owner, or location.
+- Use the **Start Date** and **End Date** pickers to filter events within a date window.
+- Click the **▼** button on any row to expand and see notes and website links.
